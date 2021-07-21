@@ -31,6 +31,7 @@ app.use((req, res, next) => {
       'Access-Control-Allow-Origin': req.headers.origin || '*',
       'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type',
       'Access-Control-Allow-Methods': 'PUT,POST,GET,DELETE,OPTIONS',
+      'Access-Control-Allow-Headers': '*',
       'Content-Type': 'application/json; charset=utf-8',
     })
   }
